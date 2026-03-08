@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>VSM LostRadar</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">VSM LostRadar</div>
+
+<div>
+
+<button onclick="location.href='post.html'">Post Item</button>
+
+<button onclick="toggleTheme()">🌙</button>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<h2>Lost & Found Items</h2>
+
+<div id="items" class="grid"></div>
+
+</div>
+
+<script src="firebase.js"></script>
+<script src="items.js"></script>
+<script src="theme.js"></script>
+
+</body>
+</html>
